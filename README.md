@@ -1,4 +1,4 @@
-# Mistral Chatbot
+# ConvoMate Chatbot
 
 ## Introduction
 The **Mistral Chatbot** is designed to provide an engaging, interactive experience through natural language conversations. By leveraging the advanced capabilities of **Mistral**, this chatbot can understand user input, generate relevant responses, and maintain the context of conversations. Whether you're looking to build a customer support bot, a personal assistant, or an educational tool, **Mistral** offers the flexibility and intelligence needed to create a responsive and dynamic chatbot.
