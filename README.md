@@ -12,7 +12,7 @@ The **Mistral Chatbot** is designed to provide an engaging, interactive experien
    daytona create  https://github.com/Adii0906/convomate-daytona
    ```  
 
-... MORE STEPS IF NEEDED ...
+... MORE STEPS ...
 ## Creating an `.env` File for Storing API Keys
 
 When working on projects that require sensitive information, such as API keys or secrets, it's essential to keep them secure. Here's how to create and use an `.env` file:
@@ -28,7 +28,29 @@ touch .env
 
 Add your sensitive keys and values in this format:
 API_KEY=your_api_key_here
-SECRET_KEY=your_secret_key_here
+
+Step 3: Use the .env File in Your Code
+Load the variables from the .env file into your application. Example in Python:
+
+python code
+from dotenv import load_dotenv
+import os
+
+# Load environment variables
+load_dotenv()
+
+# Access variables
+api_key = os.getenv("API_KEY")
+secret_key = os.getenv("SECRET_KEY")
+print(f"API Key: {api_key}")
+
+Step 4: Add .env to .gitignore
+To ensure your .env file is not pushed to public repositories:
+
+Open or create a .gitignore file in your project.
+Add the following line:
+bash
+.env
 
 
 4. **Start the Application**:  
